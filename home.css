@@ -272,13 +272,90 @@
 
 #contactUs-left{
     float: left;
+    width: 33%;
+    bakground-color:rgb(156, 221, 5);
+    margin-left: 7vw;
+    margin-top: 10vh;
+    padding: 50px;
 }
 
 #contactUs-right{
+    width: 33%;
     float: right;
     Display: flex;
     flex-direction: column;
+    bckground-color:rgb(172, 175, 4);
+    margin-right: 6vw;
+    margin-top: 3vh;
+    padding: 50px;
+    
 }
 
+#contactUs-left h1{
+    margin-bottom: 1vh;
+    font-size: 50px;
+}
 
+#contactUs-left h3{
+    margin-bottom: 10vh;
+    font-size: 20px;
+}
 
+#name, #email, #message{
+    width: 25vw;
+    height: 5vh;
+    margin-bottom: 2vh;
+    border: none;
+    border-bottom: 5px solid rgb(3, 121, 3);
+    background-color:rgba(156, 221, 5, 0.539);
+    color:rgb(255, 255, 255);
+    padding-left: 12px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#submit{
+    height: 7vh;
+    width: 15vw;
+    margin-top: 6vh;
+    border-radius: 5px;
+    background-color:rgb(156, 221, 5);
+    color:rgb(3, 66, 63);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#map-loc{
+    margin-bottom: 7vh;
+    border: none;
+    border-radius: 5px;
+}
+
+#phone-icon, #email-icon, #insta-icon, #fb-icon, #linkedIn-icon{
+    font-size: 1.5em;
+    color:rgb(156, 221, 5);
+    
+}
+
+#phone, #email-id{
+    font-size: 20px;
+    position: relative;
+    top: -4vh;
+    left: 50px;
+}
+
+#follow-text{
+    font-size: 30px;
+}
+
+#follow-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.fa-brands{
+    position: relative;
+    top: 1.5vh;
+    padding: 7px;
+
+}
