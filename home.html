@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/dfe664db01.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="home.css">
     <title>Landing Page</title>
 </head>
@@ -31,7 +31,7 @@
                 <h1>Fresh Strawberries</h1>
                 <!-- <h3>---Direct From Farm---</h3> -->
                 <h3>---Red-y to pick all the strawberries---</h3>
-                <h4>Get 30% Off...</h4><br><br>
+                <h4>Get 30% Off...</h4><small>T&C applied</small><br><br>
                 <button type="button" class="register-btn">Register Now</button>
             </div>
         </div>
@@ -65,6 +65,7 @@
 
     <footer id="contactUs">
         <div id="contactUs-left">
+            
             <h1 id="contactUs-h1">Contact Us</h1>
             <h3 id="say-hi">Want to say hi! Send us a message</h3>
             <form id="form" action= "https://www.freecodecamp.com/email-submit">
@@ -77,14 +78,17 @@
         <div id="contactUs-right">
             
             <iframe id="map-loc" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.9311746179897!2d77.27447771456863!3d28.6318247908648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfcb2baaaaac9%3A0xab60bfdc2fcf2cbe!2sSoftware%20Technologies!5e0!3m2!1sen!2sin!4v1648924777574!5m2!1sen!2sin" 
-            width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <i class="fa-solid fa-phone"></i><h4 id="phone">91+ 7987445868</h3>
-            <i class="fa-solid fa-envelope"></i><h4 id="email-id">example@strawberries.ltd</h3>
-
-            <h2>Follow Us</h2>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-linkedin"></i>
+            width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <i class="fa-solid fa-phone" id="phone-icon"></i><h4 id="phone">91+ 7987445868</h4>
+            <i class="fa-solid fa-envelope" id="email-icon"></i><h4 id="email-id">example@strawberries.ltd</h4>
+            
+            
+            <h2 id="follow-text">Follow Us</h2>
+            <div id="follow-section"></span>
+                <i class="fa-brands fa-instagram" fa-xl id="insta-icon"></i>
+                <i class="fa-brands fa-facebook" fa-xl id="fb-icon" ></i>
+                <i class="fa-brands fa-linkedin" fa-xl id="linkedIn-icon"></i>
+            </div>
         </div>
     </footer>
 </body>
