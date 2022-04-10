@@ -70,7 +70,6 @@
     background-size: cover;
     background-repeat: no-repeat;
 
-    
 }
 
 #under-header-img1{
@@ -83,6 +82,7 @@
     box-shadow: 10px 10px 8px black;
     opacity: 85%;
 }
+
 #under-header-img2{
     height: 500px;
     width: 380px;
@@ -94,6 +94,17 @@
     box-shadow: 10px 10px 8px black;
     opacity: 89%;
 }
+
+/* ---learning----------------------------------------
+@media(max-width: 400px){
+
+    #under-header-img1, #under-header-img2{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+-----------------------------------------------------*/
 
 .under-header-text{
     
@@ -213,7 +224,7 @@
 
 #pricing{
     width: 100%;
-    height: 80vh;
+    height: 87vh;
     background-color: rgb(229, 246, 151);
     margin-top: 1vh;
     display: flex;
@@ -222,7 +233,7 @@
 
 #price-card1{
 
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('https://i.pinimg.com/474x/4d/ac/62/4dac62d9583fd0f6f540676ca7c6d799.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('https://i.pinimg.com/474x/4d/ac/62/4dac62d9583fd0f6f540676ca7c6d799.jpg');
 } 
 
 #price-card2{
@@ -238,23 +249,55 @@
 #price-card1, #price-card2, #price-card3{
     height: 65vh;
     width: 20vw;
-    margin-top: 10vh;
+    margin-top: 18vh;
     margin-right: 20px;
     border-radius: 35px;
     z-index: 2;
     border: 1px solid rgb(87, 87, 87);
     box-shadow: 10px 10px 8px rgba(87, 87, 87, 0.612);
+    color: white;
     
 }
 
+#choose-plan-txt{
+    position: relative;
+    left: 32%;
+    top: 2vh;
+    font-size: 3em;
+}
+
+#price-5dollar, #price-10dollar, #price-15dollar{
+    position: relative;
+    left: 35%;
+    top: 2vh;
+    font-size: 5em;
+}
+
+#list-5dollar, #list-10dollar, #list-15dollar{
+    position: relative;
+    left: 20%;
+    top: 4vh;
+    font-size: 1.23em;
+}
+
+#order-now-btn-5dollar, #order-now-btn-10dollar, #order-now-btn-15dollar{
+    position: relative;
+    left: 17%;
+    top: 15vh;
+    font-size: 1.4em;
+    border-radius: 5px;
+    height: 6vh;
+    width: 13vw;
+    color:rgb(110, 6, 59);
+}
 
 #pricing-footer{
     position: absolute;
     width: 100%;
-    height: 35vh;
+    height: 38vh;
     background-color:rgb(156, 221, 5);
     z-index: 1;
-    margin-top: 45vh;
+    margin-top: 49vh;
     border-radius: 30% 0 0 0;
 }
 
@@ -359,3 +402,6 @@
     padding: 7px;
 
 }
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
